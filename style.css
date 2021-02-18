@@ -4,32 +4,33 @@ body {
     font-size: 13px;
 }
 
-/* Ensure that top navigation flex container doesn't go over 100% */
+/* Ensure that flex containers don't go over 100% */
 *, *:before, *:after {
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
   }
 
-/* Remove Default <ul> Style (Top + Bottom Nav Menus) */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 /* Top Navigation Bar Style */
 .container-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
+    align-items: center;
+    background-color: grey;
 }
 
-/* Equal flex spacing for all items */
-.container-top li {
-    display: flex;
-    padding: 10px;
-    background: grey;
+.container-top div {
+    padding: 5px 15px;
+}
+
+/* Push the selected div and all following divs to the right */
+.push-right {
+    margin-left: auto;
+}
+
+#apps-icon {
+    height: 30px;
+    width: 30px;
+    margin: 2px -2px 0px -2px;
 }
