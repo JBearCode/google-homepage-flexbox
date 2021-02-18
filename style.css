@@ -1,3 +1,9 @@
+/* Resetting browser defaults so top menu is at top of screen */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Basic Style - Font and Size */
 body {
     font-family: arial, sans-serif;
@@ -17,11 +23,17 @@ body {
     flex-direction: row;
     width: 100%;
     align-items: center;
-    background-color: grey;
 }
 
+/* Give top menu items a little breathing room */
 .container-top div {
-    padding: 5px 15px;
+    padding: 15px 15px;
+}
+
+/* Remove default link formatting */
+nav a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
 }
 
 /* Push the selected div and all following divs to the right */
@@ -29,8 +41,19 @@ body {
     margin-left: auto;
 }
 
+/* Define size and margin for Google apps icon in top-right menu */
 #apps-icon {
-    height: 30px;
-    width: 30px;
-    margin: 2px -2px 0px -2px;
+    height: 24px;
+    width: 24px;
+    margin: 3px -5px 0px -5px;
+}
+
+/* Create top-right login button */
+#sign-in {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    font-weight: 500;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-left: -5px;
 }
