@@ -1,8 +1,15 @@
-
+/* Basic Style - Font and Size */
 body {
     font-family: arial, sans-serif;
     font-size: 13px;
 }
+
+/* Ensure that top navigation flex container doesn't go over 100% */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
 
 /* Remove Default <ul> Style (Top + Bottom Nav Menus) */
 ul {
@@ -15,6 +22,10 @@ ul {
 /* Top Navigation Bar Style */
 .container-top-menu {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    width: 100%;
+    padding: 20px;
 
 }
 
