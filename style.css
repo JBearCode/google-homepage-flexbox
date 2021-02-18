@@ -33,7 +33,7 @@ body {
 /* Remove default link formatting */
 nav a {
     text-decoration: none;
-    color: rgb(50, 50, 50);
+    color: rgb(70, 70, 70);
 }
 
 /* Push the selected div and all following divs to the right */
@@ -52,7 +52,7 @@ nav a {
 #sign-in {
     background-color: rgb(66, 133, 244);
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     padding: 7px 10px;
     border-radius: 5px;
     margin-left: -5px;
@@ -102,8 +102,8 @@ input[type=text] {
 
 /* Styles for two search buttons */
 .search-button {
-    background-color:rgb(231, 231, 231);
-    color: rgb(95, 95, 95);
+    background-color:rgb(245, 245, 245);
+    color: rgb(70, 70, 70);
     display: inline-block;
     border: none;
     padding: 10px;
@@ -112,6 +112,6 @@ input[type=text] {
 
 /* Footer-specific styles */
 .container-bottom {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 245, 245);
     border-top: solid 1px rgb(220, 220, 220);
 }
