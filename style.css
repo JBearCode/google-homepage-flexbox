@@ -67,6 +67,15 @@ main {
     width: 100%;
 }
 
+.main-footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer-container main {
+    flex: 1 1 auto;
+}
+
 /* Search bar container */
 .search-input-div {
     display: flex;
