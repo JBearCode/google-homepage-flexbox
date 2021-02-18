@@ -49,6 +49,8 @@ nav a {
     margin: 3px -5px 0px -5px;
 }
 
+
+
 /* Create top-right login button */
 #sign-in {
     background-color: rgb(66, 133, 244);
@@ -94,6 +96,12 @@ header, footer {
     margin: 12px 0px 5px 0px;
 }
 
+/* Search container hover effect */
+.search-input-div:hover, #sign-in:hover {
+    box-shadow: 0 1px 8px 0 rgba(27, 28, 31, 0.28);
+    border-color: rgb(245,245,245);
+}
+
 /* Remove blue highlight on input click */
 input:focus {
     outline:none;
@@ -123,6 +131,12 @@ input[type=text] {
     border: none;
     padding: 10px;
     margin: 10px 5px;
+}
+
+/* Hover style for search buttons */
+button:hover {
+    color: black;
+    border: solid 1px rgb(220, 220, 220);
 }
 
 /* Footer-specific styles */
