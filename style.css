@@ -94,6 +94,11 @@ header, footer {
     margin: 12px 0px 5px 0px;
 }
 
+/* Remove blue highlight on input click */
+input:focus {
+    outline:none;
+}
+
 /* Define sizes for searchbar icons */
 #glass-icon, #mic-icon {
     height: 25px;
