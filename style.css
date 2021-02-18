@@ -65,15 +65,20 @@ main {
     align-items: center;
     margin-top: 50px;
     width: 100%;
+    flex-grow: 1;
 }
 
-.main-footer-container {
+/* Create flexbox for whole page */
+
+article {
+    min-height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
-.main-footer-container main {
-    flex: 1 1 auto;
+.container-top, main, footer {
+    flex-shrink: 0;
 }
 
 /* Search bar container */
