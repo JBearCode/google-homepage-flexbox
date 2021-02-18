@@ -20,16 +20,16 @@ ul {
 }
 
 /* Top Navigation Bar Style */
-.container-top-menu {
+.container-top {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    padding: 20px;
-
 }
 
 /* Equal flex spacing for all items */
-.container-top-menu li {
-    flex: 1;
+.container-top li {
+    display: flex;
+    padding: 10px;
+    background: grey;
 }
