@@ -1,2 +1,24 @@
-/* Top Navigation Bar Style */
 
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Remove Default <ul> Style (Top + Bottom Nav Menus) */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Top Navigation Bar Style */
+.container-top-menu {
+    display: flex;
+
+}
+
+/* Equal flex spacing for all items */
+.container-top-menu li {
+    flex: 1;
+}
